@@ -1,0 +1,38 @@
+/*Estilo de error (hecho por el tt josepe jeje)*/
+.errorSuPrimo{
+    color: #D8000C;
+    background-color: #FFD2D2;
+    border-radius: 10%;
+}
+
+.correctoSuPrimo{
+    color: #ffffff;
+    background-color: #009b3b;
+    border-radius: 10%;
+}
+
+/*border perfecto u know?*/
+.borderPerfe {
+    padding: 1%;
+	-webkit-border-bottom-left-radius: 10px;
+	-khtml-border-radius-bottomleft: 10px;	
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+  
+/*
+Clases para algunos estilos que ya venian con el bootstrap
+
+Botones:
+
+    <div class="social d-flex text-center">
+        <a href="#" class="px-2 py-2 mr-md-1 rounded"> texto </a>
+    </div>
+
+
+
+
+*/

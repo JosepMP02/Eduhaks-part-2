@@ -1,0 +1,35 @@
+INFO PARA TENER LA CABEZA ORDENADA JEJE OLA
+(Ya se que esta info no deberia estar accesible por el servidor web, pero me gusta el riesgo)
+
+////////////////////////////////
+// REDIRECT AL INDEX.PHP //////
+//////////////////////////////
+
+correctoSuPrimo     $_GET['redirected']==0      Revise su correo para continuar y poder iniciar session.
+errorSuPrimo        $_GET['redirected']==1      Te tienes que registrar para poder acceder al home.
+errorSuPrimo        $_GET['redirected']==2      Hay un error en el usuario o contraseña. Por favor vuelve a intentarlo.
+correctoSuPrimo     $_GET['redirected']==3      Se ha cerrado tu session correctamente.
+errorSuPrimo        $_GET['redirected']==4      Actualmente tu usuario no esta activo. Sentimos las molestias
+errorSuPrimo        $_GET['redirected']==5      Hay un problema con la activación, contacte con el administrador
+correctoSuPrimo     $_GET['redirected']==6      Tu usuario se ha activado correctamente, ya puede iniciar session.
+correctoSuPrimo     $_GET['redirected']==7      Revise su correo para cambiar la contraseña.
+errorSuPrimo        $_GET['redirected']==8      Hay un problema con el cambio de contraseña, vuleva a repetir el proceso.
+correctoSuPrimo     $_GET['redirected']==9      Tu contraseña se ha cambiado correctamente.
+errorSuPrimo        $_GET['redirected']==10     El tiempo para resetear la contraseña ha expirado o la contraseña ya ha sido cambiada.
+
+
+
+////////////////////////////////////////
+//// REDIRECT AL Recuperar Pasword ////
+//////////////////////////////////////
+
+errorSuPrimo        $_GET['redirected']==1      El mail que has introducido no existe, puedes registrarte directamente con ese correo
+
+
+///////////////////////////////
+//// REDIRECT AL REGISTER ////
+/////////////////////////////
+
+errorSuPrimo        $_GET['redirected']==1      Tienes que rellenar el fonrmulario.
+errorSuPrimo        $_GET['redirected']==2      El usuario y la contraseña introducidas no coinciden. Por favor intentalo de nuevo.
+errorSuPrimo        $_GET['redirected']==3      El nombre de usuario o correo electronico el cual estas registrando ya existe. Por favor registrese con otras credenciales.
